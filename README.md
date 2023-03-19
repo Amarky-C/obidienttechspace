@@ -1,11 +1,11 @@
-# obidient tech space
+# Obidient tech space
 This project focuses on the next obidient tech space training, all team members should contribute in their different stages on this project, we design and develop homepage and user dashboard
 
 
 
 # Technology for the project
 
-we are using html, css and bootstrap so the files i create will contain bootstrap libraries you can also decide to use bootstrap or html and css
+We are using html, css and bootstrap so the files i create will contain bootstrap libraries you can also decide to use bootstrap or html and css
 
 
 
