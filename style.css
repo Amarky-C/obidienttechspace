@@ -1,0 +1,365 @@
+/* this is the global selector */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+
+/* this is the header */
+
+/* header{
+    height: 100px;
+    position: fixed;
+    top: 0px;
+} */
+
+.header-flex{
+    display: flex;
+}
+
+.header-item img{
+    width: 20%;
+    margin: 15px 0px 0px 90px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 20px 20px 10px 20px;
+    color: rgba(0, 0, 0, 0.738);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.738);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.home{
+    color: rgb(16, 201, 145);
+}
+
+.home:hover{
+    color: rgb(16, 201, 145);
+    border-bottom: 2px solid rgb(16, 201, 145);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.fa-rocket{
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.bars, .xmark{
+    display: none;
+}
+
+/* this is the end of header */
+
+/* this is container-div */
+
+.container-div{
+   height: 85vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.811)),
+   url(./image/ha21.png);
+   /* background-position: center; */
+   background-size: 1300px;
+   background-repeat: no-repeat;
+   margin-top: 80px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-tem{
+    margin-left: 100px;  
+}
+
+.container-tem h1{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top: 30vh;
+}
+
+.container-tem p{
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 50px;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.846);
+}
+
+.explore{
+    padding: 20px 55px;
+    margin-top: 35px;
+    color: rgba(0, 0, 0, 0.846);
+    background-color: rgb(16, 201, 145);
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore:hover{
+    background-color: white;
+    transition: 1s;
+    border: 2px solid rgb(16, 201, 145);
+}
+
+.container-item img{
+    width: 100%;
+    height: 640px;
+}
+
+/* this is the end of  container-div */
+
+/* this is dev  */
+
+.dev{
+    height: 40vh;
+}
+
+.dev-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.item{
+    margin-right: 4vh;
+    background-color: white;
+    width: 43%;
+    height: 33vh;
+    text-align: center;
+    box-shadow: 0px 0px 14px 14px #adaaaa88;
+}
+
+.item:hover{
+    box-shadow: 8px 10px 10px 8px #adaaaa88;
+}
+
+.already{
+    background-color: white;
+    width: 43%;
+    height: 33vh;
+    margin-left: 4vh;
+    text-align: center;
+    box-shadow: 0px 0px 13px 13px #adaaaa8f;
+}
+
+.already:hover{
+    box-shadow: 8px 10px 10px 8px #adaaaa8f;
+}
+
+.dev-item h2{
+    padding-top: 6vh;
+    font-size: 35px;
+}
+
+.dev-item p{
+    padding-top: 3vh;
+    font-size: 27px; 
+}
+
+.fa-lock, .fa-briefcase{
+    padding-right: 7px;
+}
+
+.button{
+    margin-top: 3vh;
+    padding: 15px 36px;
+    font-size: 18px;
+    background-color:rgb(16, 201, 145);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.846);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    transition: 1s;
+    border: 2px solid rgb(16, 201, 145); 
+
+}
+
+/* this is the end of dev */
+
+
+/* here is my media query */
+
+@media screen and (max-width: 750px){
+
+/* this is the header */
+
+.header-item img{
+    width: 20%;
+    margin: 15px 0px 0px 40px;
+}
+
+.bars{
+    font-size: 25px;
+    padding: 6px;
+    margin: 18px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.846);
+}
+
+.ul{
+    background-color: rgb(122, 211, 122);
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 2px;
+    margin-top: 0px;
+    display: none;
+}
+
+ul{
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+ul li{
+    padding-top: 9vh;
+}
+
+.bars, .xmark{
+    display: block;
+}
+
+/* .xmark{
+    margin-bottom: 5vh;
+} */
+
+.xmark{
+    position: absolute;
+    right: 3%;
+    top: 2vh;
+    font-size: 30px;
+    cursor: pointer; 
+}
+
+.home{
+    color: rgba(0, 0, 0, 0.846);
+}
+
+
+.home:hover{
+    color: rgba(0, 0, 0, 0.846);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.846);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+/* this is the end of header */
+
+/* this the begining of container-div */
+ 
+ .container-flex{
+     flex-direction: column;
+ }
+ 
+ .container-tem{
+     margin-left: 0px;  
+     text-align: center;
+ }
+ 
+ .container-tem h1{
+     font-size: 35px;
+     padding-top: 10vh;
+ }
+ 
+ .container-tem p{
+     padding-top: 40px;
+     font-size: 18px;
+     color: rgba(0, 0, 0, 0.926);
+ }
+ 
+ .explore{
+     padding: 15px 35px;
+     font-size: 16px;
+ }
+ 
+ .container-item img{
+     width: 70%;
+     height: 350px;
+     margin-top: 8vh;
+     margin-left: 10vh;
+ }
+
+ /* this the end of container-div */
+
+ /* this the begining of dev */
+
+ .dev{
+    height: 70vh;
+ }
+
+.dev-flex{
+    flex-direction: column;
+    margin-top: 30vh;
+    align-items: center;
+}
+
+.item{
+    margin-right: 0vh;
+    width: 80%;
+    height: 28vh;
+}
+
+.already{
+    width: 80%;
+    height: 28vh;
+    margin-left: 0vh;
+    margin-top: 7vh;
+}
+
+.dev-item h2{
+    font-size: 20px;
+}
+
+.dev-item p{
+    font-size: 16px; 
+}
+
+.button{
+    padding: 15px 28px;
+    font-size: 16px;
+
+}
+
+/* the end of dev */
+
+    
+}
+
+
+
+
+

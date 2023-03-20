@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./image/sky logo.png">
+    <script src="https://kit.fontawesome.com/66e653fb00.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>Obidient software training</title>
+</head>
+<body>
+   
+    <!-- this is my header -->
+
+    <header>
+
+        <div class="header-flex">
+            
+            <div class="header-item">
+
+               <a href=""><img src="./image/sky logo.png" alt=""></a> 
+            </div>
+
+            <div class="header-item">
+                
+                <div class="bars"><i class="fa-solid fa-bars-staggered" onclick="showmenu()"></i></div>
+               
+                <div class="ul" id="menu">
+                    <div class="xmark"><i class="fa-solid fa-xmark" onclick="hidemenu()"></i></div>
+               <ul>
+                    
+                    <li><a href="#" class="home">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">GET MENTORS</a></li>
+                    <li><a href="#">JOIN THE ACADEMY<i class="fa-solid fa-rocket"></i></a></li>
+                    <li><a href="#">SPONSOR SOMEONE</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </header>
+ 
+    <!-- this is container-div -->
+ 
+    <div class="container-div">
+
+        <div class="container-flex">
+
+            <div class="container-tem">
+                <h1>Buiding talents. <br> Creating solutions</h1>
+                <p>Obidient software training, using technology as a tool to create a pool of 
+                    tech- <br> talented individuals empowered to innovate and solve the world
+                     biggest problem.</p>
+
+                     <button class="explore">EXPLORE US</button>
+            </div>
+
+            <div class="container-item">
+                <img src="./image/6.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- the end of container-div -->
+
+    <!-- this is dev -->
+
+    <div class="dev">
+
+        <div class="dev-flex">
+
+            <div class="dev-item item">
+                <h2>Become a Developer?</h2>
+                <p><i class="fa-solid fa-briefcase"></i>Fullstack Development Boot camp</p>
+                <button class="button">Know More</button>
+            </div>
+
+            <div class="dev-item already">
+                <h2>Already a Developer?</h2>
+                <p><i class="fa-solid fa-lock"></i>Secure Coding Boot camp</p>
+                <button class="button">Advance Your Career</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the end of dev -->
+    
+    <!-- this is the javascript for menu-bar  -->
+
+    <script>
+
+        const menubar = document.getElementById('menu');
+        function showmenu(){
+            menubar.style.display= 'block'
+        }
+        
+        function hidemenu(){
+            menubar.style.display= 'none'
+        }
+        
+        </script>
+
+</body>
+</html>
