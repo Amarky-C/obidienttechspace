@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.cohort7{
+    background-color: rgba(31, 163, 101, 0.548);
+    
+}
+
+.cohort7 h2{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nedu{
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+
+.cohort h4{
+   font-size: 24px;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.cohort img{
+width: 400px;
+padding: 20px;
+border-radius: 30px;
+
+}
+
+.cohort p{
+    font-size: 19px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:750px){
+    #nedu{
+        display: inline-block;
+    } 
+
+    #nedu img{
+       position: relative;
+       right: 25%;
+       width: 350px;
+       border-radius: 50px;
+       
+    }
+
+    .cohort7 h2{
+        font-size: 25px;
+    }
+
+    .cohort h4{
+        position: relative;
+        right: 23%;
+
+}
+
+.cohort p{
+    position: relative;
+    right: 23%;
+    padding-bottom: 40px;
+}
+
+}
